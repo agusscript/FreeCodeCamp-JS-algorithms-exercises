@@ -14,3 +14,13 @@ You are given a variable celsius representing a temperature in Celsius. Use the 
 - convertCtoF(20) should return a value of 68
 - convertCtoF(30) should return a value of 86
 
+
+# Solution
+
+```
+function convertCtoF(celsius) {
+  let fahrenheit = celsius * (9/5) + 32;
+  return fahrenheit;
+}
+```
+
